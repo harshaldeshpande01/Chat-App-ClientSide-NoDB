@@ -2,7 +2,8 @@ Harshal Deshpande
 
 Site URL : https://eloquent-clarke-26ee61.netlify.app/
 
-(This is code for the frontend of the app)
+(This is code for the frontend of the application)
+
 Check https://github.com/harshaldeshpande01/Chat-App-ServerSide-NoDB server-side code here !!
 
 ![Chat](https://user-images.githubusercontent.com/60571252/82060514-258e9580-96e5-11ea-8bdc-e6493eecb616.png)
