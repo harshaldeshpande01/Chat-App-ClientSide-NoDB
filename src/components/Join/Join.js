@@ -42,7 +42,7 @@ const Join = () => {
         <div>
           <input placeholder="Room password" className="joinInput mt-20" type="text" onChange={(event) => setPass(event.target.value)} />
         </div>
-        <Link to={`/chat?create=${create}&name=${name}&room=${room}&pass=${pass}`}>
+        <Link onClick={e => (!name || !room || !pass) ? e.preventDefault() : null} to={`/chat?create=${create}&name=${name}&room=${room}&pass=${pass}`}>
           <button className={'button mt-20'} type="submit">Sign In</button>
         </Link>
       </div>
@@ -52,5 +52,3 @@ const Join = () => {
 };
 
 export default Join;
-
-// onClick={e => (!name || !room || !pass) ? e.preventDefault() : null}
